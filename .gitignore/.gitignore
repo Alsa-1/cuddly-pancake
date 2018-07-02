@@ -26,7 +26,7 @@ class Car{
   private String name;
   private float price;
   
-  public void pay(int n){
-    return price*n;
+  public float pay(int n){
+    return (float)n*price;
   }
 }
